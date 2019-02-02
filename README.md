@@ -20,24 +20,24 @@ Your application must have a polished front-end that dynamically renders the dir
 
 1. A `View` option that displays all employee info:
 
-![view](../images/view.png)
+![view](./00-homework/images/view.png)
 
 2. An `Add` option that allows users to input name, office number, and phone number and then renders the updated employee list.
 
-![add](../images/add.png)
+![add](./00-homework/images/add.png)
 
 3. A `Verify` option that allows users to input a name and renders `yes` if the employee exists and `no` otherwise.
 
-![verify](../images/verify.png)
+![verify](./00-homework/images/verify.png)
 
 #### Challenge:
 
 The following are additional functionalities that you should consider for your application. It's a bit of a challenge, but give it a shot. These concepts will become important as we continue with the course.
 
-4. An `Update` option that allows the user to input name, office number, and phone number and updates the office number and phone number of the employee that matches the input name, and then renders the updated employee list.
+1. An `Update` option that allows the user to input name, office number, and phone number and updates the office number and phone number of the employee that matches the input name, and then renders the updated employee list.
 
-![verify](../images/update.png)
+![verify](./00-homework/images/update.png)
 
-5. A `Delete` option that deletes the employee with the matching name and then renders the updated employee list.
+1. A `Delete` option that deletes the employee with the matching name and then renders the updated employee list.
 
-![verify](../images/delete.png)
+![verify](./00-homework/images/delete.png)
