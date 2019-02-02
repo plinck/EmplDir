@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <div>
+      <button id="viewBtn">View</button>
+      <button id="addBtn">Add</button>
+      <button id="verifyBtn">Verify</button>
+    </div>
+  </nav>
+  <main>
+    <section id="view">
+      <h1>VIEW</h1>
+    </section>
+    <section id="add">
+      <h1>ADD</h1>
+      <input id="empName" placeholder="employeeName" name="name" type="text">
+      <input id="officeNum" placeholder="Office Number" name="name" type="text">
+      <input id="phoneNum" placeholder="404-555-1212" name="name" type="text">  
+      <button id="addEmployeeBtn">Add</button>
+      <div class="employeeDisplay"></div>
+    </section>
+    <section id="verify">
+      <h1>VERIFY</h1>
+      <input id="searchName" placeholder="employeeName" name="name" type="text">
+      <button id="verifyEmployeeBtn">Search</button>
+      <div class="employeeVerifyDisplay"></div>
+    </section>
+  </main>
+
+  <script src="dom.js"></script>
+  <script src="employeeList.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
